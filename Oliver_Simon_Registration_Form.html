@@ -3,9 +3,37 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Registration Form</title>
 </head>
 <body>
-    
+    <h1>Registration Form</h1>
+    <p>First Name:* <input type="text" name = "first_name>"/></p>
+    <p>Last Name:* <input type="text" name = "last_name>"/></p>
+    <p>Email Address:* <input type="text" name = "Email_Address>"/></p>
+    <p>Password:* <input type="text" name = Password></p>
+    <p>Confirm Password:* <input type="text" name = Confirm_Password></p>
+    <p>Birthday:* <input type="date" name = Birthday></p> 
+    <p>Gender Identity:</p>
+    <p>
+        Male<input type = "radio" name = "gender" value = "male" id = "male" /> 
+        Female <input type = "radio" name = "gender" value = "female" id = "female"/> 
+        Non-binary <input type = "radio" name = "gender" value = "non-binary" id = "non-binary"/>
+        Prefer not to answer <input type = "radio" name = "gender" value = "prefer_not_to_answer" id = "prefer_not_to_answer"/>
+    </p>
+   
+   <p>A short descriptuon about myself: </p>
+    <textarea name = "comment" cols = "20" rows = "4">
+    </textarea>
+    <p>Favorite Language: </p>
+    <select name = "language">
+        <option value = "Python">Python</option>
+        <option value = "Java">Java</option>
+        <option value = "Java Script"> Java Script</option>
+    </select> 
+    <p></p>
+    <input type = "checkbox" name = "email_updates" id = "email_updates">
+    <label for = "accept"> Send me email updates! </label>
+    <p></p>
+    <input type = "submit" value = "Sign Up!"
 </body>
 </html>
